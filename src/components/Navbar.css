@@ -19,3 +19,32 @@
 .colors{
     color: var(--primary);
 }
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding:0 1rem;
+}
+
+.na-menu a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #533;
+
+}
+
+.hamnurger {
+    display: none;
+    cursor: pointer;
+}   /* Hide the hamburger menu on small screens */
+
+@media screen and (max-width: 1240px) {
+    .hamnurger {
+        display: flex;
+    }
+    .nav-menu {
+        display: none;
+    }
+}
