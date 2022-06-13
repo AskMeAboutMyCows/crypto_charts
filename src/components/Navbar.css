@@ -41,7 +41,7 @@
 }   /* Hide the hamburger menu on small screens */
 
 @media screen and (max-width: 1240px) {
-    .hamnurger {
+    .hamburger {
         display: flex;
     }
 
