@@ -5,6 +5,30 @@
   --background: #f5f8ff;
 }
 
+.primary {
+  color: var(--primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont,'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
