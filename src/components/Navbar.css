@@ -47,7 +47,25 @@
     .nav-menu {
         position: absolute;
         flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        transition: 0.2s;
+        background: #fff;
+        z-index: 2;
+        border-left: 1px solid #eee;
+    }
 
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu li a {
+        font-size: 1rem;
     }
 
 }
