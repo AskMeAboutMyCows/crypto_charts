@@ -74,11 +74,11 @@ p{
 }
 
 .btn:hover {
-  box-shadow rgb(0 0 0 / 15%) 0px 8px 24px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
 }
 
 input {
-  paddding: 12px 32px;
+  padding: 12px 32px;
   border: 1px solid var(--primary);
   background: transparent;
   border-radius: 24px 4px;
@@ -90,7 +90,7 @@ input {
 @media (max-width: 768px) {
   h1 {
     font-size: 2.2rem;
-  }line-height: 1.2;
+    line-height: 1.2;
 }
 
 h2 {
@@ -114,4 +114,5 @@ p {
 
 input{
   width: 100%;
+}
 }
