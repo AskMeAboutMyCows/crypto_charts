@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBars } from 'react-icons/fa'
 import './Navbar.css'
 
 
@@ -24,7 +25,10 @@ const navbar = () => {
         <div className='btn-group'>
           <button className='btn'>Connect Wallet</button>
         </div>
+        <div className='hamburger'>
+          <FaBars></FaBars>
       </div>
+    </div>
     </div>
 
 
