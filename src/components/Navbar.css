@@ -63,7 +63,9 @@
         width: 100%;
         border-bottom: 1px solid #eee;
     }
-
+    .nav-menu.active {
+        right: 0;
+    }
     .nav-menu li a {
         font-size: 1rem;
     }
