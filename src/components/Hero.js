@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Crypto from '../assets/hero-image.png'
-
+// just checking
 const Hero = () => {
     return (
         <div className='hero'>
