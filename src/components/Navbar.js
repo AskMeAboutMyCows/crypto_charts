@@ -3,9 +3,9 @@ import { FaBars } from 'react-icons/fa'
 import './Navbar.css'
 
 
-const navbar = () => {
-const [click, setclick] = useState(false)
-const handleClick = () => setclick(!click)
+const Navbar = () => {
+const [click, setClick] = useState(false)
+const handleClick = () => setClick(!click)
   
   
   return (
@@ -44,4 +44,4 @@ const handleClick = () => setclick(!click)
   )
 }
 
-export default navbar
+export default Navbar
