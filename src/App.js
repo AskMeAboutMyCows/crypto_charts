@@ -10,6 +10,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Featured />
+      <Signup />
+      <Footer />
     </div>
   );
 }
